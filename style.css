@@ -39,19 +39,23 @@ header nav ul li a {
 
 /* mobile styles here */
 @media only screen and (min-width: 350px) {
-    body {
-        background-color:#000;
+
+    h1 {
+        font-size: 52px;
     }
  }
  
  /*desktop styles here*/
  @media only screen and (min-width: 800px) {
-    body {
-        background-color:red;
-    }
+
+    h1 {font-size: 48px;}
 
     header {
         display: flex;
         justify-content: space-between;
+    }
+
+    header nav ul {
+        text-align: center;
     }
  }
