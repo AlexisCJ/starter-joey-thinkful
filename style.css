@@ -1,0 +1,57 @@
+header {
+    background-color: blue;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* might need to update this part depending on mobile/desktop */
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* mobile styles here */
+@media only screen and (min-width: 350px) {
+    body {
+        background-color:#000;
+    }
+ }
+ 
+ /*desktop styles here*/
+ @media only screen and (min-width: 800px) {
+    body {
+        background-color:red;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+ }
